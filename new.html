@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <body>
+       <h2> Formulario de Registro </h2> 
+<form>
+    <fieldset>
+        <legend>Datos eprsonales</legend>
+    <label for="fname">Nombre:</label>
+    <input type="text" id="fname" name="fname" placeholder="Ingrese su nombre aquí...">
+    <label for="fname">Apellido</label>
+    <input type="text" id="fapellido" apellido="fname" placeholder="Ingrese su apellido aquí..."><br><br>
+    <label for="fdirección">Dirección:</label>
+    <input type="text" id="fdireccion" name="fndireccion" placeholder="Ingrese su dirección aquí...">
+    <label for="fname">Ciudad:</label>
+    <input type="text" id="fciudad" name="fciudad" placeholder="C.A.B.A"><br><br>
+    <label for="fname">Código Postal:</label>
+    <input type="text" id="fname" name="fname" placeholder="Ingrese su nombre aquí...">
+    <label for="fname">Teléfono:</label>
+    <input type="text" id="ftelefono" name="fteléfono" placeholder="Ingrese su teléfono aquí..."><br><br>
+    <label for="fFecha">Fecha Nac.(mm/dd/yyyy):</label>
+    <input type="date"><br><br>
+    <input type="radio" value = "Hombre"> 
+    <label for="hombre">Hombre</label>
+    <input type="radio" value = "Mujer"> 
+    <label for="Mujer">Mujer</label>
+    <input type="radio" value = "Otro"> 
+    <label for="Otro">Otro</label><br><br>
+</fieldset>
+<br>
+<label for="iname">Conocimientos previos (checkbox)</label>
+<input type="checkbox" id="tecnologia1" name="tecnologia1" value="html">
+<label for="tecnologia1"> HTML</label> <input type="checkbox" id="tecnologia2" name="tecnologia2" value="css">
+<label for="tecnologia2"> CSS</label><input type="checkbox" id="tecnologia3" name="tecnologia3" value="bootstrap">
+<label for="tecnologia3"> Bootstrap</label> <input type="checkbox" id="tecnologia4" name="tecnologia4" value="js">
+<label for="tecnologia4"> Javascrip</label> <input type="checkbox" id="tecnologia5" name="tecnologia5" value="bd">
+<label for="tecnologia5"> Base de datos</label> <input type="checkbox" id="tecnologia6" name="tecnologia6" value="py">
+<label for="tecnologia6"> Python</label> <input type="checkbox" id="tecnologia7" name="tecnologia7" value="dj">
+<label for="tecnologia7"> Django</label><br><br>
+<label for="estudios">Estudios (Select):</label>
+  <select id="estudios" name="estudios">
+    <option value="primario">Primario</option>
+    <option value="secundario">Secundario</option>
+    <option value="Terciario">Terciario</option><br><br>
+</select><br>
+<label for="comen">Comentarios:</label>
+<textarea name="message" rows="10" cols="30"></textarea><br><br>
+<input type="submit" value="Enviar">
+  <input type="reset" value="Reset"><br>
+  <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagona "show_data.html".</p>
+</html>
